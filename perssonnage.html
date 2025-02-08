@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Factory - Personnage</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Jacquarda+Bastarda+9&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Personnage</h1>
+      <nav id="navigation_perssonnage">
+        <a href="index.html">Accueil</a>
+        <a href="Artisanat.html">Artisanat</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Section : La Goutte -->
+      <section class="character" id="lagoutte">
+        <h2>La Goutte</h2>
+        <div class="character-container">
+          <div class="character-parts">
+            <table class="character-table">
+              <tr>
+                <td><img class="image_partie"  src="image/character/lagoutte/pieces/avant_bras.png" alt="Avant-bras" /></td>
+                <td><img class="image_partie"  src="image/character/lagoutte/pieces/bras.png" alt="Bras" /></td>
+                <td><img class="image_partie"  src="image/character/lagoutte/pieces/corp.png" alt="Corps" /></td>
+                <td><img class="image_partie"  src="image/character/lagoutte/pieces/crane.png" alt="Crâne" /></td>
+                <td><img class="image_partie"  src="image/character/lagoutte/pieces/machoire.png" alt="Mâchoire" /></td>
+              </tr>
+              <tr>
+                <td><img class="image_partie"  src="image/character/lagoutte/pieces/cuisse.png" alt="Cuisse" /></td>
+                <td><img class="image_partie"  src="image/character/lagoutte/pieces/main.png" alt="Main" /></td>
+                <td><img class="image_partie"  src="image/character/lagoutte/pieces/pied.png" alt="Pied" /></td>
+                <td><img class="image_partie"  src="image/character/lagoutte/pieces/tibia.png" alt="Tibia" /></td>
+              </tr>
+            </table>
+          </div>
+          <div class="character-assembled">
+
+            <img class="personnage" id = "goutte"
+            src="image/character/lagoutte/marche/lagoutte_assembler_marche.gif"
+            alt="La Goutte assemblée"
+          />
+            <img class="personnage" id = "goutte"
+              src="image/character/lagoutte/idle/lagoutte_assembler_idle.gif"
+              alt="La Goutte assemblée"
+            />
+          </div>
+        </div>
+        <div class="character-description">
+          <p>
+            <em class="nom_propre">La Goutte</em> est un détenu de
+            <em class="nom_commun">Rhutlege</em>.
+            <br />
+            Il est le compagnon de route du <em class="nom_propre">Pélican</em>.
+            Ils sont amis depuis longtemps.
+            <br />
+            <em class="nom_propre">La Goutte</em> est un personnage expansif
+            aimant parler et faire rire ses amis.
+            <br />
+            Il aime cacher son propre inconfort social en occupant l'espace.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section : Le Pélican -->
+      <section class="character" id="lepelican">
+        <h2>Le Pélican</h2>
+        <div class="character-container">
+          <div class="character-parts">
+            <table class="character-table">
+              <tr>
+                <td><img class="image_partie" src="image/character/lepelican/piece/épaule.png" alt="Épaule" /></td>
+                <td><img class="image_partie" src="image/character/lepelican/piece/bras.png" alt="Bras" /></td>
+                <td><img class="image_partie" src="image/character/lepelican/piece/corp.png" alt="Corps" /></td>
+                <td><img class="image_partie" src="image/character/lepelican/piece/crane.png" alt="Crâne" /></td>
+                <td><img class="image_partie" src="image/character/lepelican/piece/machoire.png" alt="Mâchoire" /></td>
+
+              </tr>
+
+              <tr>
+                <td><img class="image_partie" src="image/character/lepelican/piece/cuisse.png" alt="Cuisse" /></td>
+                <td><img class="image_partie" src="image/character/lepelican/piece/main.png" alt="Main" /></td>
+                <td><img class="image_partie" src="image/character/lepelican/piece/pied.png" alt="Pied" /></td>
+                <td><img class="image_partie" src="image/character/lepelican/piece/tibia.png" alt="Tibia" /></td>
+              </tr>
+            </table>
+          </div>
+          <div class="character-assembled">
+
+            <img class="personnage" id = "pelican"
+            src="image/character/lepelican/marche/le_pelican_marche.gif"
+            alt="Le Pélican assemblé"
+          />
+
+            <img class="personnage" id = "pelican"
+              src="image/character/lepelican/idle/le_pelican_idle.gif"
+              alt="Le Pélican assemblé"
+            />
+          </div>
+        </div>
+        <div class="character-description">
+          <p>
+            <em class="nom_propre">Le Pélican</em> est un détenu de
+            <em class="nom_commun">Rhutlege</em>.
+            <br />
+            Il est le compagnon de route de <em class="nom_propre">La Goutte</em>.
+            Ils sont amis depuis longtemps.
+            <br />
+            <em class="nom_propre">Le Pélican</em> est un personnage réservé,
+            peu bavard, un peu bourru et naïf.
+            <br />
+            Il est anxieux et a des penchants dépressifs mais aime profiter de
+            ce qu'il peut.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
